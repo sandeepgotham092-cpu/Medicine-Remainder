@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+apscheduler
+python-multipart
+email-validator
+google-genai

@@ -1,0 +1,94 @@
+
+.Header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Header header{
+  margin-top: 20px;
+  font-size:50px;
+}
+.mainhero{
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv{
+  border: 1px solid;
+  width: 50vw;
+  height: auto;
+  border-radius: 12px;
+  padding: 20px 20px;
+
+}
+.maindiv h1{
+  font-size: 20px;
+}
+
+.maindiv_{
+  text-align: center;
+  border: 1px solid;
+  width: auto;
+  border-radius: 12px;
+  position: relative;
+  top:-100px;
+  margin-top:30px;
+  border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.maindiv_ h1{
+  font-size: 15px;
+}
+.maindiv button{
+  margin-top: 20px;
+}
+.logbook{
+  display: flex;
+  flex-direction: row;
+}
+.namelog{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 2px 20px 10px;
+}
+.maindiv_chat{
+  padding: 20px;
+  border: 1px solid;
+  width: 50vw;
+  height: 30vw;
+  font-size: 18px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.AIres{
+  position: relative;
+  top:50px
+}
+.Chattext{
+  position:fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  
+}
+.Chattext input{
+  width: 45vw;
+}
+

@@ -1,0 +1,20 @@
+.comfortaa-Regular {
+  font-family: "Comfortaa";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body{
+  font-family: "Comfortaa";
+  background-image: url('/src/images/ine.gif'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  
+}
